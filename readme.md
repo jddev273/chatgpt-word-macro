@@ -8,7 +8,7 @@ These instructions may only apply to recent versions of Microsoft Windows.  You 
 
 1. Open Microsoft Word and Click View Then Macros (or Alt-F8).
 2. Enter a name (should be ChatGPT or you will need to change the macro code), make sure normal.dotm is selected in the Macros In pulldown menu then click Create.
-3. The editor will open up, replace everything with the code in the macro.bas file.
+3. The editor will open up, replace everything with the code in the macro.vba file.
 4. Replace `sk-YOUR-CHATGPT-KEY-HERE` with your own OpenAI API key.
 5. Run the `ChatGPT` subroutine by pressing Alt-F8 and clicking run.
 6. Enter the prompt you want to send to the ChatGPT API in the input box that appears.
