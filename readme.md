@@ -2,6 +2,10 @@
 
 A simple macro for communicating with the OpenAI ChatGPT API in Microsoft Word.  This was tested under the latest version of Microsoft Word.  Adjustments may be needed to run with older versions.
 
+## Demo
+
+![ChatGPT Word Macro Demo](chatgpt-word-macros-demo.gif)
+
 ## Usage
 
 These instructions may only apply to recent versions of Microsoft Windows.  You will need 
