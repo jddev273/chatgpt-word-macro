@@ -68,7 +68,7 @@ Sub ChatGPT()
     End If
         
     responseText = httpRequest.responseText
-    startPos = InStr(responseText, """content"":""") + 15
+    startPos = InStr(responseText, """content"":""") + 11
     endPos = InStr(responseText, """},""") - 1
 
     responseText = Trim(UnescapeString(Mid(responseText, startPos, endPos - startPos + 1)))
